@@ -10,6 +10,12 @@ One way to utilize this script is to set your PagerDuty notification rules to
 notify you only after 10 minutes an incident has triggered and run this script
 every 5 minutes.
 
+# Dependencies
+This script depends on python, Selenium, and Chrome driver. To install all
+dependencies on OS X:
+
+    brew install chromedriver python ; pip install selenium
+
 # Usage
 First go through `main.py` and update the script in sections marked by `TODO:`.
 
